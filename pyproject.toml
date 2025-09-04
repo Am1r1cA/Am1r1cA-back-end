@@ -1,0 +1,26 @@
+[project]
+name = "am1r1ca-back-end"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "mahdidlt13830510",email = "mahdi.dlt13830510@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi (>=0.116.1,<0.117.0)",
+    "uvicorn[standard] (>=0.35.0,<0.36.0)",
+    "sqlalchemy (>=2.0.43,<3.0.0)",
+    "asyncpg (>=0.30.0,<0.31.0)",
+    "alembic (>=1.16.5,<2.0.0)",
+    "pydantic (>=2.11.7,<3.0.0)",
+    "passlib (>=1.7.4,<2.0.0)",
+    "pytest (>=8.4.2,<9.0.0)",
+    "pytest-asyncio (>=1.1.0,<2.0.0)",
+    "httpx (>=0.28.1,<0.29.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
